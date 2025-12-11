@@ -1,0 +1,138 @@
+/* ========== Œ—ÕŒ¬ÕŒ… —“»À‹ ========== */
+body {
+    font-family: Arial, sans-serif;
+    background: #f3f4f6;
+    margin: 0;
+    padding: 0;
+}
+
+.center-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* ==========  ¿–“Œ◊ » (login/register/cabinet) ========== */
+.card {
+    width: 380px;
+    background: white;
+    padding: 32px;
+    border-radius: 12px;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+        text-align: center;
+        margin-top: 0;
+        color: #333;
+}
+
+/* ==========  ÕŒœ » ========== */
+.btn {
+    display: inline-block;
+    padding: 12px;
+    background: #222;
+    color: #fff !important;
+    border-radius: 6px;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 12px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.btn:hover {
+        background: #444;
+}
+
+.btn-row {
+    display: flex;
+    gap: 12px;
+    margin: 15px 0;
+}
+
+.btn-small {
+    padding: 10px;
+    font-size: 14px;
+}
+
+/* ========== “¿¡À»÷¿ “Œ¬¿–Œ¬ ========== */
+.table-wrapper {
+    width: 95%;
+    max-width: 1400px;
+    margin: 40px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+}
+
+.table-wrapper h2 {
+        margin-top: 0;
+        text-align: center;
+        color: #222;
+}
+
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.styled-table thead {
+        background: #222;
+        color: white;
+}
+
+.styled-table th,
+.styled-table td {
+        padding: 12px;
+        border-bottom: 1px solid #ddd;
+}
+
+.styled-table tbody tr:hover {
+        background: #f3f3f3;
+
+}
+
+/* –Â‰‡ÍÚËÛÂÏ˚Â ˇ˜ÂÈÍË */
+.editable {
+    cursor: pointer;
+    background: #fff9e6;
+}
+
+.editable:hover {
+        background: #ffe9b3;
+}
+
+.edit-input {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
+
+.scroll-top {
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    width: 48px;
+    height: 48px;
+    background: #000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 22px;
+    text-decoration: none;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    z-index: 999;
+}
+
+.scroll-top:hover {
+    background: #444;
+}
+

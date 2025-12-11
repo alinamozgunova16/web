@@ -1,0 +1,27 @@
+<?php
+$type='TrueTypeUnicode';
+$name='DejaVuSans';
+$desc=array(
+'Ascent'=>928,
+'Descent'=>-236,
+'CapHeight'=>928,
+'Flags'=>32,
+'FontBBox'=>'[-1021 -415 1681 1167]',
+'ItalicAngle'=>0,
+'StemV'=>70,
+'MissingWidth'=>600
+);
+$up=-63;
+$ut=44;
+$cw=array(
+0=>600,32=>278,33=>333,34=>474,35=>556,36=>556,37=>889,38=>667,
+39=>238,40=>333,41=>333,42=>389,43=>584,44=>278,45=>333,46=>278,
+47=>278,48=>556,49=>556,50=>556,51=>556,52=>556,53=>556,54=>556,
+55=>556,56=>556,57=>556
+);
+$enc='';
+$diff='';
+$file='DejaVuSans.z';
+$ctg='DejaVuSans.ctg.z';
+$originalsize=0;
+?>
